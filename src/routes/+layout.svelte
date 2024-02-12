@@ -9,3 +9,5 @@
         const page_id = document.getElementById("page_id").value
         location.href = `/${page_id}`}}>이동</button>
 </form>
+
+<slot></slot>
